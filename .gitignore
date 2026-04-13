@@ -1,0 +1,23 @@
+# Node / Expo
+node_modules/
+.npm/
+.npm-cache/
+.expo/
+.expo-shared/
+dist/
+build/
+
+# Python
+.venv/
+.api-venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+
+# Environment files
+.env
+.env.*
+!.env.example
+apps/api/.env
+apps/mobile/.env

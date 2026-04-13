@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "DungeonMate",
+    "slug": "dungeonmate",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow DungeonMate to record your RPG session audio."
+        }
+      ]
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
